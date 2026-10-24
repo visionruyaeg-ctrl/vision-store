@@ -1,0 +1,4589 @@
+{
+ "store": {
+  "currency": {
+   "ar": "ج.م",
+   "en": "EGP"
+  },
+  "whatsapp": "",
+  "instagram": "ruya.vision",
+  "tiktok": "ruya.vision",
+  "showFanArt": true,
+  "pricing": {
+   "price": 799,
+   "compareAt": 950,
+   "_note": "Every hoodie uses this price. compareAt shows struck through; the discount badge is calculated from the two (rounded down)."
+  }
+ },
+ "colors": {
+  "black": {
+   "hex": "#202020",
+   "ar": "أسود",
+   "en": "Black"
+  },
+  "white": {
+   "hex": "#FFFFFF",
+   "ar": "أبيض",
+   "en": "White"
+  },
+  "petrol": {
+   "hex": "#185868",
+   "ar": "بترولي",
+   "en": "Petrol"
+  },
+  "burgundy": {
+   "hex": "#581820",
+   "ar": "نبيتي",
+   "en": "Burgundy"
+  },
+  "brown": {
+   "hex": "#4A3428",
+   "ar": "بني",
+   "en": "Brown"
+  }
+ },
+ "sizes": [
+  "M",
+  "L",
+  "XL",
+  "2XL"
+ ],
+ "sizeGuide": {
+  "unit": "cm",
+  "rows": [
+   {
+    "size": "M",
+    "chest": 60,
+    "length": 72,
+    "sleeve": 61
+   },
+   {
+    "size": "L",
+    "chest": 63,
+    "length": 74,
+    "sleeve": 62
+   },
+   {
+    "size": "XL",
+    "chest": 66,
+    "length": 76,
+    "sleeve": 63
+   },
+   {
+    "size": "2XL",
+    "chest": 69,
+    "length": 78,
+    "sleeve": 64
+   }
+  ],
+  "note": {
+   "ar": "مقاسات تقريبية لقصة Oversized، مقاسة والقطعة مفرودة. هتتحدّث بمقاسات المورد النهائية.",
+   "en": "Approximate measurements for an oversized fit, taken flat. Will be updated with the supplier's final spec."
+  }
+ },
+ "_images": "Every design on the real studio hoodie photos (very light Ivory studio, 4:5), only the sides that are printed: back, front, plus one print close-up (detail, best colour). Paths: assets/products/<id>/<colour>-<front|back>-<width>.webp, detail-<width>.webp",
+ "images": {
+  "front": {
+   "widths": [
+    480,
+    800,
+    1200
+   ],
+   "fallback": 800,
+   "ratio": "4 / 5"
+  },
+  "back": {
+   "widths": [
+    480,
+    800,
+    1200
+   ],
+   "fallback": 800,
+   "ratio": "4 / 5"
+  },
+  "detail": {
+   "widths": [
+    600,
+    1200
+   ],
+   "fallback": 800,
+   "ratio": "4 / 5",
+   "shared": true
+  },
+  "model": {
+   "widths": [
+    600,
+    1122
+   ],
+   "ratio": "4 / 5",
+   "lifestyle": true
+  }
+ },
+ "_printAreas": "Print areas (% of the 4:5 mockup canvas + real size on size L), measured from the owner's reference (2026-10-21). The chest box is picked from the art's shape: wide logo or small/square logo.",
+ "printAreas": {
+  "front": {
+   "pct": {
+    "left": 34.53,
+    "top": 34.5,
+    "width": 30.94,
+    "height": 10.6
+   },
+   "cm": {
+    "width": "26-28",
+    "topBelowNeckSeam": "7-8"
+   },
+   "note": "wide chest logo: centred, 60-65% of the body width, ends above the pocket"
+  },
+  "frontSmall": {
+   "pct": {
+    "left": 44.28,
+    "top": 34.5,
+    "width": 11.44,
+    "height": 9.2
+   },
+   "cm": {
+    "maxWidth": 10
+   },
+   "note": "small / square chest logo: same top line, centred"
+  },
+  "back": {
+   "pct": {
+    "left": 20.47,
+    "top": 32.0,
+    "width": 59.06,
+    "height": 41.8
+   },
+   "cm": {
+    "width": "32-35",
+    "maxHeight": "38-40",
+    "topBelowHoodSeam": "4-5"
+   },
+   "note": "centred, 85-90% of the body width; art fitted with contain (never stretched or cropped), top-aligned"
+  }
+ },
+ "_placement": "2026-10-21, measured from the owner's reference (One Piece 1.png) and mapped by garment landmarks: same real sizes on the 4:5 light-Ivory mockups (2026-10-24): front wide logo 30.9% of the canvas (~26-28 cm), top 34.5%, ends above the pocket; front small/square logo max 10 cm, same top line; back max 59.1% x 41.8% of the canvas (~32-35 x 38-40 cm), top 32% (just under the hood). Fit = contain, centred, top-aligned. No front file = back only (no front/back switch).",
+ "_cards": "The card shows the first printed side (back when there is a back print, else the front); desktop hover / phone swipe shows the other printed side.",
+ "collections": [
+  {
+   "id": "anime",
+   "ar": "أنمي",
+   "en": "Anime",
+   "text": {
+    "ar": "أبطال الأنمي اللي كبرنا معاهم، بالحبر الياباني.",
+    "en": "The anime heroes we grew up with, in Japanese ink."
+   }
+  },
+  {
+   "id": "movies",
+   "ar": "أفلام ومسلسلات",
+   "en": "Movies & Series",
+   "text": {
+    "ar": "أفيشات وكادرات من السينما والمسلسلات.",
+    "en": "Posters and frames from film and TV."
+   }
+  },
+  {
+   "id": "egyptian",
+   "ar": "مصريات",
+   "en": "Egyptian",
+   "text": {
+    "ar": "تفاصيل من مصر — من المترو لعين حورس — بعين جديدة.",
+    "en": "Details of Egypt — from the metro to the Eye of Horus — seen anew."
+   }
+  },
+  {
+   "id": "typography",
+   "ar": "تايبوجرافي",
+   "en": "Typography",
+   "text": {
+    "ar": "الكلمة هي الصورة.",
+    "en": "The word is the picture."
+   }
+  },
+  {
+   "id": "vintage",
+   "ar": "فينتدج",
+   "en": "Vintage",
+   "text": {
+    "ar": "حفر كلاسيكي، باروك، ولوحات بروح زمان.",
+    "en": "Classical etching, baroque and old-master paintings."
+   }
+  },
+  {
+   "id": "mix",
+   "ar": "ميكس",
+   "en": "Mix",
+   "text": {
+    "ar": "كولاج جريء من عوالم مختلفة.",
+    "en": "A bold collage of different worlds."
+   }
+  },
+  {
+   "id": "nostalgia",
+   "ar": "نوستالجيا",
+   "en": "Nostalgia",
+   "text": {
+    "ar": "كرتون وأبطال طفولتنا — بنفس الحماس.",
+    "en": "The cartoons and heroes we grew up with."
+   }
+  },
+  {
+   "id": "sports",
+   "ar": "رياضة",
+   "en": "Sports",
+   "text": {
+    "ar": "روح الملعب والجمهور، على هودي.",
+    "en": "The spirit of the pitch and the stands, on a hoodie."
+   }
+  },
+  {
+   "id": "girly",
+   "ar": "بناتي",
+   "en": "Girly",
+   "text": {
+    "ar": "رسومات ناعمة ولطيفة.",
+    "en": "Soft, sweet artwork."
+   }
+  },
+  {
+   "id": "identity",
+   "ar": "الهوية",
+   "en": "Identity",
+   "text": {
+    "ar": "تصميمات من هوية رؤية نفسها: اللوجو، العين، والكلمة.",
+    "en": "Designs from the Vision identity itself: the logo, the eye and the word."
+   }
+  }
+ ],
+ "_products": "status: live = on the site. review = kept off the site until you approve it. order = display order (1 = first). fanArt = uses characters / titles owned by others. realPerson = shows a real person. Price: store.pricing (one place for every hoodie).",
+ "products": [
+  {
+   "id": "horus",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 1,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عين حورس",
+    "en": "Eye of Horus Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "عين حورس بالعاجي جوه دواير ونجوم دهبي — نفس ألوان رؤية.",
+    "en": "The Eye of Horus in ivory inside gold circles and stars — in Vision's own colours."
+   },
+   "bestReason": {
+    "ar": "ألوان التصميم هي ألوان رؤية نفسها (عاجي ودهبي على أسود)، فالأسود بيطلّعه زي ما اتصمم.",
+    "en": "The design uses Vision's own palette (ivory and gold on midnight), so black shows it exactly as designed."
+   },
+   "code": "EG-01"
+  },
+  {
+   "id": "gojo",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 2,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العيون الزرقا",
+    "en": "Blue Eyes Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "رسم مانجا ملوّن بعيون زرقا وكانجي ياباني على الجنب.",
+    "en": "Colour manga art with blue eyes and Japanese kanji at the side."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "ahlan",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 3,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي أهلاً",
+    "en": "Ahlan Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-ahlan-black-01"
+  },
+  {
+   "id": "bttf",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 4,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العودة للمستقبل",
+    "en": "Back to the Future Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "أفيش ريترو بألوان التمانينات الزاهية.",
+    "en": "A retro poster in bright 80s colours."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "monsters",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 5,
+   "colors": [
+    "brown",
+    "black",
+    "white",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "brown",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي متأخرين بس جايين",
+    "en": "Late But Here Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-monsters-brown-01"
+  },
+  {
+   "id": "longriver",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 6,
+   "colors": [
+    "petrol",
+    "black",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "petrol",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي النهر الطويل",
+    "en": "The Long River Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-longriver-petrol-01"
+  },
+  {
+   "id": "tram",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 7,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ترام إسكندرية",
+    "en": "Alexandria Tram Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "sukunaking",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 8,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ملك اللعنات",
+    "en": "King of Curses Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "smile",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 9,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "petrol",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي اضحك",
+    "en": "Smile Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "heliopolis",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 10,
+   "colors": [
+    "brown",
+    "black",
+    "white",
+    "petrol",
+    "burgundy"
+   ],
+   "bestMatch": "brown",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي مصر الجديدة",
+    "en": "Heliopolis Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-heliopolis-brown-01"
+  },
+  {
+   "id": "spies",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 11,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي توتالي سبايز",
+    "en": "Totally Spies Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "hellfire",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 12,
+   "colors": [
+    "white",
+    "burgundy",
+    "black",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي نادي هيلفاير",
+    "en": "Hellfire Club Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "shay",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 13,
+   "colors": [
+    "white",
+    "burgundy",
+    "brown",
+    "black",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي شاي؟",
+    "en": "Shay? Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-shay-white-01"
+  },
+  {
+   "id": "dnd",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 14,
+   "colors": [
+    "burgundy",
+    "black",
+    "white",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "burgundy",
+   "views": [
+    "back",
+    "front",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ممنوع الإزعاج",
+    "en": "Do Not Disturb Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: طباعة كبيرة — الصدر: شعار التصميم",
+    "en": "Back: large print — Chest: the design's logo"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-dnd-burgundy-01"
+  },
+  {
+   "id": "ful",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 15,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عربية الفول",
+    "en": "Ful Cart Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "toji",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 16,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي قاتل السحرة",
+    "en": "Sorcerer Killer Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "cinemanile",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 17,
+   "colors": [
+    "white",
+    "brown",
+    "burgundy",
+    "black",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سينما النيل",
+    "en": "Cinema Nile Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-cinemanile-white-01"
+  },
+  {
+   "id": "salah",
+   "collection": "sports",
+   "drop": "SPORTS",
+   "status": "live",
+   "order": 18,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي صلاح",
+    "en": "Salah 10 Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true,
+   "realPerson": true
+  },
+  {
+   "id": "sunset",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 19,
+   "colors": [
+    "burgundy",
+    "black",
+    "petrol",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "burgundy",
+   "views": [
+    "front",
+    "model"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي سانست رانرز",
+    "en": "Sunset Runners Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-sunset-burgundy-01"
+  },
+  {
+   "id": "gamer",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 20,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عالم الجيمرز",
+    "en": "Gamer Gear Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "nefertiti",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 21,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي نفرتيتي",
+    "en": "Nefertiti Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "lostmotivation",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 22,
+   "colors": [
+    "brown",
+    "black",
+    "white",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "brown",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الحافز الضايع",
+    "en": "Lost Motivation Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-lostmotivation-brown-01"
+  },
+  {
+   "id": "mixtape",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 23,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي شريط الطريق",
+    "en": "Mixtape for the Road Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-mixtape-black-01"
+  },
+  {
+   "id": "moth",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 24,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي بتحب النار",
+    "en": "Moth to the Flame Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "jokerkill",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 25,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجوكر KILL",
+    "en": "Joker KILL Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "chai",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 26,
+   "colors": [
+    "white",
+    "burgundy",
+    "brown",
+    "black",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي شاي بلبن",
+    "en": "Shay B'Laban Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-chai-white-01"
+  },
+  {
+   "id": "killjoke",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 27,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي KILL",
+    "en": "Kill Joke Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "scarab",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 28,
+   "colors": [
+    "black",
+    "burgundy",
+    "brown",
+    "white",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجعران الذهبي",
+    "en": "Golden Scarab Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "slowmornings",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 29,
+   "colors": [
+    "petrol",
+    "black",
+    "white",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "petrol",
+   "views": [
+    "front",
+    "model"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي صباح على مهلك",
+    "en": "Slow Mornings Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-slowmornings-petrol-01"
+  },
+  {
+   "id": "shotonfilm",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 30,
+   "colors": [
+    "brown",
+    "black",
+    "white",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "brown",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي متصوّر على فيلم",
+    "en": "Shot on Film Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-shotonfilm-brown-01"
+  },
+  {
+   "id": "sukuna",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 31,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الحبر البنفسجي",
+    "en": "Purple Inkstorm Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "رسم مانجا أبيض وأسود وسط عاصفة حبر بنفسجي.",
+    "en": "Black-and-white manga art in a storm of purple ink."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "nileunited",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 32,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي نايل يونايتد",
+    "en": "Nile United Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-nileunited-black-01"
+  },
+  {
+   "id": "mandala",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 33,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عين الماندالا",
+    "en": "Mandala Eye Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "raikiri",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 34,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي البرق الأحمر",
+    "en": "Red Lightning Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "fightclub",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 35,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي نادي القتال",
+    "en": "Fight Club Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "أفيش بستايل 1999 بالأحمر والأسود والدهبي.",
+    "en": "A 1999-style poster in red, black and gold."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "aswan",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 36,
+   "colors": [
+    "brown",
+    "black",
+    "burgundy",
+    "white",
+    "petrol"
+   ],
+   "bestMatch": "brown",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي تحيات من أسوان",
+    "en": "Greetings from Aswan Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-aswan-brown-01"
+  },
+  {
+   "id": "onair",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 37,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي على الهوا",
+    "en": "On Air Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "luck",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 38,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الحظ بيتكسب",
+    "en": "Luck Is Earned Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-luck-black-01"
+  },
+  {
+   "id": "toothless",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 39,
+   "colors": [
+    "white",
+    "brown",
+    "black",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي توثلس",
+    "en": "Night Fury Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "cr7",
+   "collection": "sports",
+   "drop": "SPORTS",
+   "status": "live",
+   "order": 40,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي رونالدو",
+    "en": "CR7 Portugal Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true,
+   "realPerson": true
+  },
+  {
+   "id": "keepcalm",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 41,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي كيب كالم",
+    "en": "Keep Calm & Play Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "demonlord",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 42,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سيد الشياطين",
+    "en": "Demon Lord Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "upsidedown",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 43,
+   "colors": [
+    "white",
+    "black",
+    "brown",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العالم المقلوب",
+    "en": "Upside Down Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "ctrlz",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 44,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي Ctrl+Z للحياة",
+    "en": "Ctrl+Z Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "patience",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 45,
+   "colors": [
+    "white",
+    "petrol",
+    "black",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي شارع الصبر",
+    "en": "Patience St. Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "peacock",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 46,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الطاووس",
+    "en": "The Peacock Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طاووس وورد في برواز فضي محفور على الطريقة القديمة.",
+    "en": "A peacock and flowers in an engraved silver frame."
+   }
+  },
+  {
+   "id": "stitch",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 47,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ستيتش آيس كريم",
+    "en": "Ice Cream Time Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "berserk",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 48,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي المحارب الأسود",
+    "en": "Black Swordsman Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "dailydose",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 49,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي جرعتي اليومية",
+    "en": "My Daily Dose Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-dailydose-white-01"
+  },
+  {
+   "id": "noir",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 50,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي نوار — الفصل الأول",
+    "en": "Noir — Chapter One Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "محقق تحت المطر وعمود نور في شارع بالليل — جو أفلام النوار الأبيض والأسود.",
+    "en": "A detective in the rain under a street lamp — black-and-white film noir mood."
+   }
+  },
+  {
+   "id": "silence",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 51,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الصمت",
+    "en": "Silence Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "corniche",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 52,
+   "colors": [
+    "petrol",
+    "black",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "petrol",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي درة الكورنيش",
+    "en": "Corniche Snacks Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-corniche-petrol-01"
+  },
+  {
+   "id": "bikini",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 53,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي بيكيني بوتوم",
+    "en": "Bikini Bottom Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "gameover",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 54,
+   "colors": [
+    "white",
+    "brown",
+    "petrol",
+    "black",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي جيم أوفر",
+    "en": "Game Over Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "chimera",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 55,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ملك الكيميرا",
+    "en": "Chimera King Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "batman",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 56,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي فارس الظلام",
+    "en": "Dark Knight Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "بورتريه كوميكس بالأزرق الغامق والأصفر بتكستشر مطبعة قديمة.",
+    "en": "A comic portrait in dark blue and yellow with an old-press texture."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "fresh",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 57,
+   "colors": [
+    "black",
+    "burgundy",
+    "brown",
+    "white",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail",
+    "model"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سندوتش الصبح",
+    "en": "Fresh Every Morning Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "lifestyle": "model-fresh-white-01"
+  },
+  {
+   "id": "brickgame",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 58,
+   "colors": [
+    "black",
+    "burgundy",
+    "brown",
+    "white",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي البريك جيم",
+    "en": "Brick Game Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "bust",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 59,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي التمثال المكسور",
+    "en": "Gilded Cracks Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "تمثال رخام متشقق بخطوط دهبي جوه برواز باروك.",
+    "en": "A cracked marble bust with gold seams inside a baroque frame."
+   }
+  },
+  {
+   "id": "amongus",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 60,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي أمونج فريندز",
+    "en": "Among Friends Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "buzz",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 61,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سبيس رينجر",
+    "en": "Space Ranger Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "bubbles",
+   "collection": "girly",
+   "drop": "GIRLY",
+   "status": "live",
+   "order": 62,
+   "colors": [
+    "black",
+    "burgundy",
+    "white",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي بابلز",
+    "en": "Bubbles Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "culling",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 63,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "brown",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ذا كالينج جيم",
+    "en": "The Culling Game Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "أفيش جوجتسو كايسن — أرك The Culling Game — بالألوان، واللوجو الياباني على الصدر.",
+    "en": "A Jujutsu Kaisen poster — The Culling Game arc — in colour, with the Japanese logo on the chest."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "couch",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 64,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي كنبة فريندز",
+    "en": "Friends Couch Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "pharaoh",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 65,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الفرعون الذهبي",
+    "en": "Golden Pharaoh Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "gameoverar",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 66,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي اللعبة خلصت",
+    "en": "Game Over (Arabic) Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "dove",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 67,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الحمامة",
+    "en": "The Dove Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "لوحة باروك: إيدين بتمتد لحمامة بيضا، على قماش مقطوع الأطراف.",
+    "en": "A baroque painting: two hands reaching for a white dove, on torn-edge canvas."
+   }
+  },
+  {
+   "id": "cassette",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 68,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الشريط",
+    "en": "Cassette Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "fairly",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 69,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجنيات",
+    "en": "Fairly Odd Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "daisy",
+   "collection": "girly",
+   "drop": "GIRLY",
+   "status": "live",
+   "order": 70,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي فيونكة ديزي",
+    "en": "Daisy Bow Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "gon",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 71,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي هانتر — الغضب",
+    "en": "Hunter Rage Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "رسم مانجا بالأبيض والأخضر والأصفر، وكلمة HUNTER معكوسة فوق.",
+    "en": "Manga art in white, green and yellow, under a mirrored HUNTER title."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "doom",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 72,
+   "colors": [
+    "white",
+    "black",
+    "brown",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي دكتور دوم",
+    "en": "Doctor Doom Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "أفيش كوميكس بالأخضر المعدني وحروف DOCTOR DOOM عريضة.",
+    "en": "A comic poster in metallic green with heavy DOCTOR DOOM lettering."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "sphinx",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "live",
+   "order": 73,
+   "colors": [
+    "black",
+    "burgundy",
+    "white",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي أبو الهول بالسماعات",
+    "en": "Headphone Sphinx Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "limited",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 74,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي ليمتد",
+    "en": "Limited Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "horse",
+   "collection": "vintage",
+   "drop": "VINTAGE",
+   "status": "live",
+   "order": 75,
+   "colors": [
+    "white",
+    "black",
+    "brown",
+    "burgundy",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الحصان الأسود",
+    "en": "Black Horse Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "حصان أسود بعرف متزخرف بالنحاسي.",
+    "en": "A black horse with a copper filigree mane."
+   }
+  },
+  {
+   "id": "gamekid",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 76,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي جيم كيد",
+    "en": "Game Kid Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "ghostboy",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 77,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الولد الشبح",
+    "en": "Ghost Boy Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "mickeylove",
+   "collection": "girly",
+   "drop": "GIRLY",
+   "status": "live",
+   "order": 78,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي ميكي لوف",
+    "en": "Mickey Love Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "guy",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 79,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي البوابة الثامنة",
+    "en": "Eighth Gate Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "رسم مانجا بالأحمر — مقاتل في أقصى قوته، وكانجي ياباني على الجنب.",
+    "en": "Red manga art — a fighter at full power, with Japanese kanji at the side."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "friends",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 80,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي فريندز",
+    "en": "Friends Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "musameh",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 81,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي مسامح؟",
+    "en": "Forgiven? Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "gotica",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 82,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي جيم جوثيكا",
+    "en": "Gym Gotica Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "jimmy",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 83,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العبقري الصغير",
+    "en": "Boy Genius Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "moonlove",
+   "collection": "girly",
+   "drop": "GIRLY",
+   "status": "live",
+   "order": 84,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي بحبك للقمر",
+    "en": "To the Moon and Back Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "hisoka",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 85,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "front",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ورقة الجوكر",
+    "en": "Joker Card Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: طباعة كبيرة — الصدر: شعار التصميم",
+    "en": "Back: large print — Chest: the design's logo"
+   },
+   "description": {
+    "ar": "رسم مانجا بالحبر الأسود والأبيض، ونجمة وقلب أحمر على كارت لعب.",
+    "en": "Manga ink drawing in black and white, with a red star and heart on a playing card."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "hawkins",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 86,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي شلة هوكينز",
+    "en": "Hawkins Crew Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "oldroots",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 87,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي من فات قديمه",
+    "en": "Old Roots Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "gymmode",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 88,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي جيم مود",
+    "en": "Gym Mode On Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "knightfire",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 89,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي فارس في النار",
+    "en": "Knight on Fire Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "killua",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 90,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي البرق الأبيض",
+    "en": "White Lightning Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "potter",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 91,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الولد اللي عاش",
+    "en": "The Boy Who Lived Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "silencework",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 92,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي اشتغل في صمت",
+    "en": "Work in Silence Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "handwraps",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 93,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي رباط الملاكمة",
+    "en": "Hand Wraps Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "miles",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 94,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي مايلز",
+    "en": "Miles Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "killua2",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 95,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "petrol",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي هانتر — كيلوا",
+    "en": "Hunter Killua Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "spiderman",
+   "collection": "movies",
+   "drop": "CINEMA",
+   "status": "live",
+   "order": 96,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "petrol",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "front",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سبايدر مان — الطابع",
+    "en": "Spider-Man Stamp Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: طباعة كبيرة — الصدر: شعار التصميم",
+    "en": "Back: large print — Chest: the design's logo"
+   },
+   "description": {
+    "ar": "طابع بريد كوميكس قديم لسبايدر مان، وعلى الصدر بادج «With great power comes great responsibility».",
+    "en": "A vintage comic postage stamp of Spider-Man, with a “With great power comes great responsibility” badge on the chest."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "skyhigh",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "live",
+   "order": 97,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي طاير في السما",
+    "en": "Sky High Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "longhorn",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 98,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي قلب الصحرا",
+    "en": "Desert Longhorn Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "sonic",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 99,
+   "colors": [
+    "white",
+    "burgundy",
+    "brown",
+    "black",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي سونيك",
+    "en": "Blue Blur Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "neonjoker",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 100,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجوكر النيون",
+    "en": "Neon Joker Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "mecha",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 101,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الروبوت الذهبي",
+    "en": "Golden Mecha Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "tasknight",
+   "collection": "nostalgia",
+   "drop": "NOSTALGIA",
+   "status": "live",
+   "order": 102,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي باتمان الكرتون",
+    "en": "Animated Knight Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "ogre",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 103,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الأوجر",
+    "en": "Ogre Sketch Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "muscle",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 104,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عضلات",
+    "en": "Muscle Freak Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "pinkstorm",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 105,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "petrol",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العاصفة الوردية",
+    "en": "Pink Storm Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "noirdetective",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 106,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي المحقق تحت المطر",
+    "en": "Rainy Detective Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "redstar",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 107,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجوكر الأحمر",
+    "en": "Red Star Trickster Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "wheelie",
+   "collection": "mix",
+   "drop": "MIX",
+   "status": "live",
+   "order": 108,
+   "colors": [
+    "white",
+    "black",
+    "brown",
+    "petrol",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ويلي",
+    "en": "Wheelie Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "scarlet",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 109,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العيون القرمزية",
+    "en": "Scarlet Eyes Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "silver",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 110,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي النظرة الفضية",
+    "en": "Silver Gaze Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "titaneyes",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 111,
+   "colors": [
+    "white",
+    "black",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي عيون العملاق",
+    "en": "Titan Eyes Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "titans",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 112,
+   "colors": [
+    "white",
+    "black",
+    "brown",
+    "petrol",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي هجوم العمالقة",
+    "en": "Titan Wall Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "trio",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 113,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "brown",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ثلاثي المحاربين",
+    "en": "Three Warriors Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "تلات محاربين بالأخضر الغامق وكلمة يابانية بالأحمر.",
+    "en": "Three warriors in deep green with a red Japanese word."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "void",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 114,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي الفراغ اللامتناهي",
+    "en": "Infinite Void Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "wings",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 115,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي أجنحة الحرية",
+    "en": "Wings of Freedom Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "yugi",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "live",
+   "order": 116,
+   "colors": [
+    "black",
+    "white",
+    "burgundy",
+    "brown",
+    "petrol"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ملك الألعاب",
+    "en": "King of Games Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   },
+   "fanArt": true
+  },
+  {
+   "id": "core",
+   "collection": "identity",
+   "drop": "IDENTITY",
+   "status": "live",
+   "order": 117,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي اللوجو",
+    "en": "Core Logo Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "الهوية زي ما هي: اللوجو ثنائي اللغة بنجمتين دهبي، مطبوع DTF على قطن ميلتون 100% تقيل بقصة Oversized.",
+    "en": "The identity, as is: the bilingual logo with its two gold stars, DTF-printed on heavyweight 100% cotton milton, oversized fit."
+   },
+   "bestReason": {
+    "ar": "أعلى تباين: الحبر الأسود على الأبيض بيدي أوضح قراءة للوجو.",
+    "en": "Highest contrast: midnight ink on white gives the clearest read of the logo."
+   }
+  },
+  {
+   "id": "eye",
+   "collection": "identity",
+   "drop": "IDENTITY",
+   "status": "live",
+   "order": 118,
+   "colors": [
+    "black",
+    "white",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "back",
+    "front",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي العين",
+    "en": "The Eye Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: طباعة كبيرة — الصدر: شعار التصميم",
+    "en": "Back: large print — Chest: the design's logo"
+   },
+   "description": {
+    "ar": "العين المفتوحة والنجمة اللي جواها، وتحتها «شوف أبعد.» بخط Cairo Black. مطبوع DTF على قطن ميلتون 100% تقيل.",
+    "en": "The open eye with its guiding star, above “⁧شوف أبعد.⁩” in Cairo Black. DTF-printed on heavyweight 100% cotton milton."
+   },
+   "bestReason": {
+    "ar": "النجمة الدهبي الكبيرة بتختفي على الأبيض؛ الأسود بيخلّي العين والنجمة واضحين بالكامل.",
+    "en": "The large gold star fades on white; black keeps both the eye and the star fully legible."
+   }
+  },
+  {
+   "id": "ruya",
+   "collection": "identity",
+   "drop": "IDENTITY",
+   "status": "live",
+   "order": 119,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "front",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي رؤية",
+    "en": "Ru'ya Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: طباعة كبيرة — الصدر: شعار التصميم",
+    "en": "Back: large print — Chest: the design's logo"
+   },
+   "description": {
+    "ar": "العربي في المقدمة: كلمة «رؤية» بعرض الضهر وتحتها VISION صغيرة. مطبوع DTF على قطن ميلتون 100% تقيل.",
+    "en": "Arabic leads: “⁧رؤية⁩” across the back with a small VISION beneath. DTF-printed on heavyweight 100% cotton milton."
+   },
+   "bestReason": {
+    "ar": "مساحة الحبر الكبيرة بتبان أقوى على الأبيض بحبر أسود.",
+    "en": "The large ink area reads strongest as midnight ink on white."
+   }
+  },
+  {
+   "id": "wehave",
+   "collection": "identity",
+   "drop": "IDENTITY",
+   "status": "live",
+   "order": 120,
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy",
+    "brown"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "back",
+    "detail"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي We Have A",
+    "en": "We Have A Hoodie"
+   },
+   "print": {
+    "ar": "طباعة كبيرة على الضهر",
+    "en": "Large print on the back"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "visionary",
+   "collection": "identity",
+   "drop": "IDENTITY",
+   "status": "live",
+   "order": 121,
+   "colors": [
+    "black",
+    "petrol",
+    "burgundy",
+    "brown",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي Visionary",
+    "en": "Visionary Hoodie"
+   },
+   "print": {
+    "ar": "طباعة على الصدر",
+    "en": "Chest print"
+   },
+   "description": {
+    "ar": "طباعة DTF بألوان كاملة على قطن ميلتون 100% تقيل، قصة Oversized.",
+    "en": "Full-colour DTF print on heavyweight 100% cotton milton, oversized fit."
+   }
+  },
+  {
+   "id": "onepiece",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "fanArt": true,
+   "colors": [
+    "black"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "images": {
+    "front": {
+     "widths": [
+      480,
+      768
+     ],
+     "fallback": 768,
+     "ratio": "4 / 5"
+    },
+    "back": {
+     "widths": [
+      480,
+      768
+     ],
+     "fallback": 768,
+     "ratio": "4 / 5"
+    }
+   },
+   "name": {
+    "ar": "هودي ون بيس — لوفي",
+    "en": "One Piece — Luffy Hoodie"
+   },
+   "print": {
+    "ar": "لوجو One Piece على الصدر + لوفي Gear 5 على الضهر",
+    "en": "One Piece logo on the chest + Luffy Gear 5 on the back"
+   },
+   "description": {
+    "ar": "قدام: لوجو ون بيس. ورا: مونكي دي لوفي في الـ Gear 5 بالأبيض والرمادي. مطبوع DTF على قطن ميلتون 100% تقيل.",
+    "en": "Front: the One Piece logo. Back: Monkey D. Luffy in Gear 5, in white and grey. DTF-printed on heavyweight 100% cotton milton."
+   },
+   "bestReason": {
+    "ar": "متاح بالأسود بس دلوقتي: التصميم واصلنا كصورة على هودي أسود، ومحتاجين ملف الطباعة نفسه عشان نعمل باقي الألوان.",
+    "en": "Black only for now: the design came as a photo on a black hoodie; the print file itself is needed to make the other colours."
+   }
+  },
+  {
+   "id": "elbaf",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "fanArt": true,
+   "colors": [
+    "black",
+    "white"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي ون بيس — إلباف",
+    "en": "One Piece — Elbaf Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: أفيش إلباف · 30 سم — الصدر: جمجمة إلباف الحمرا",
+    "en": "Back: Elbaf poster · 30 cm — Chest: red Elbaf skull"
+   },
+   "description": {
+    "ar": "أفيش أرك إلباف بالأحمر والكريمي، وعلى الصدر جمجمة الفايكنج بتاعة إلباف.",
+    "en": "The Elbaf arc poster in red and cream, with the Elbaf viking skull on the chest."
+   }
+  },
+  {
+   "id": "kurapika",
+   "collection": "anime",
+   "drop": "ANIME",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "fanArt": true,
+   "colors": [
+    "white",
+    "black"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي السلاسل",
+    "en": "Chains Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: الرسمة بالكامل · 30 سم — الصدر: لوجو رؤية صغير",
+    "en": "Back: full artwork · 30 cm — Chest: small Vision logo"
+   },
+   "description": {
+    "ar": "رسم مانجا ملوّن بالأصفر والأزرق والأحمر، وسلاسل فضي حوالين الشخصية.",
+    "en": "Colour manga art in yellow, blue and red, wrapped in silver chains."
+   }
+  },
+  {
+   "id": "metro",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "colors": [
+    "white",
+    "black",
+    "petrol",
+    "burgundy"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي ميترو",
+    "en": "Metro Hoodie"
+   },
+   "print": {
+    "ar": "«ميترو» على الصدر الأيسر · 9 سم — الضهر سادة",
+    "en": "“⁧ميترو⁩” on the left chest · 9 cm — plain back"
+   },
+   "description": {
+    "ar": "علامة المترو المصرية بخط هندسي مربع، مطبوعة DTF على قطن ميلتون 100% تقيل.",
+    "en": "The Egyptian metro sign in square geometric Arabic, DTF-printed on heavyweight 100% cotton milton."
+   },
+   "bestReason": {
+    "ar": "أعلى تباين: الحبر الأسود على الأبيض بيدي أوضح قراءة لحروف ميترو.",
+    "en": "Highest contrast: midnight ink on white gives the clearest read of the letters."
+   }
+  },
+  {
+   "id": "atari",
+   "collection": "egyptian",
+   "drop": "EGYPTIAN",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "colors": [
+    "white"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي أتاري",
+    "en": "Atari Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: «طول ما انت شاري هيتلعب بيك أتاري» · 30 سم — الصدر: نفس الجملة صغيرة",
+    "en": "Back: “⁧طول ما انت شاري هيتلعب بيك أتاري⁩” · 30 cm — Chest: the same line, small"
+   },
+   "description": {
+    "ar": "جملة مصرية بخط بكسل زي ألعاب الأتاري، وسحاب بكسل أزرق.",
+    "en": "An Egyptian saying in Atari-style pixel lettering, with blue pixel clouds."
+   }
+  },
+  {
+   "id": "whynotme",
+   "collection": "typography",
+   "drop": "TYPE",
+   "status": "review",
+   "hiddenReason": "design no longer in the project folder (2026-10-09)",
+   "colors": [
+    "petrol",
+    "black",
+    "white",
+    "burgundy"
+   ],
+   "bestMatch": "petrol",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "front",
+   "name": {
+    "ar": "هودي ليه لأ أنا؟",
+    "en": "Why Not Me? Hoodie"
+   },
+   "print": {
+    "ar": "«WHY NOT ME?» على الصدر الأيسر · 9 سم — الضهر سادة",
+    "en": "“WHY NOT ME?” on the left chest · 9 cm — plain back"
+   },
+   "description": {
+    "ar": "سؤال واحد بخط عريض مضغوط — للي عنده حلم وبيسأل نفسه ليه لأ.",
+    "en": "One question in a heavy condensed face — for anyone asking themselves why not."
+   },
+   "bestReason": {
+    "ar": "البترولي هو اللون اللي اتصور بيه في صورة الموديل، والكلام الفاتح بيبان عليه بوضوح.",
+    "en": "Petrol is the colour in the model photo, and the light lettering reads clearly on it."
+   }
+  },
+  {
+   "id": "paisley",
+   "collection": null,
+   "suggested": "mix",
+   "drop": "MIX",
+   "status": "review",
+   "colors": [
+    "white",
+    "black"
+   ],
+   "bestMatch": "white",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي البيزلي",
+    "en": "Paisley Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: الدايرة بالكامل · 30 سم — الصدر: لوجو رؤية صغير",
+    "en": "Back: full medallion · 30 cm — Chest: small Vision logo"
+   },
+   "description": {
+    "ar": "دايرة بيزلي وورد أبيض على أسود.",
+    "en": "A paisley and floral medallion, white on black."
+   },
+   "hiddenReason": "design not in the current folder"
+  },
+  {
+   "id": "moon",
+   "collection": null,
+   "suggested": "mix",
+   "drop": "MIX",
+   "status": "review",
+   "colors": [
+    "black"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي أطوار القمر",
+    "en": "Moon Phases Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: الرسمة بالكامل · 30 سم — الصدر: لوجو رؤية صغير",
+    "en": "Back: full artwork · 30 cm — Chest: small Vision logo"
+   },
+   "description": {
+    "ar": "أطوار القمر ونجوم بالدهبي.",
+    "en": "Moon phases and stars in gold."
+   },
+   "hiddenReason": "design not in the current folder"
+  },
+  {
+   "id": "gta",
+   "collection": null,
+   "suggested": "mix",
+   "drop": "MIX",
+   "status": "review",
+   "fanArt": true,
+   "colors": [
+    "black",
+    "burgundy"
+   ],
+   "bestMatch": "black",
+   "views": [
+    "front",
+    "back"
+   ],
+   "cardView": "back",
+   "name": {
+    "ar": "هودي الجيم",
+    "en": "The Game Hoodie"
+   },
+   "print": {
+    "ar": "الضهر: الأفيش بالكامل · 30 سم — الصدر: لوجو رؤية صغير",
+    "en": "Back: full poster · 30 cm — Chest: small Vision logo"
+   },
+   "description": {
+    "ar": "أفيش لعبة بألوان الغروب.",
+    "en": "A video-game poster in sunset colours."
+   },
+   "hiddenReason": "design not in the current folder"
+  }
+ ],
+ "models": {
+  "_note": "Files in assets/models (WebP, 4:5 photos with a -600 phone size; 16:9 banners with a -960 phone size). Made by tools/process_models.py.",
+  "home": [
+   {
+    "file": "model-longriver-petrol-01",
+    "product": "longriver"
+   },
+   {
+    "file": "model-ahlan-black-01",
+    "product": "ahlan"
+   },
+   {
+    "file": "model-monsters-brown-01",
+    "product": "monsters"
+   },
+   {
+    "file": "model-shay-white-01",
+    "product": "shay"
+   },
+   {
+    "file": "model-dnd-burgundy-01",
+    "product": "dnd"
+   },
+   {
+    "file": "model-mixtape-black-01",
+    "product": "mixtape"
+   }
+  ],
+  "banners": {
+   "egyptian": {
+    "file": "banner-egyptian",
+    "photo": "model-heliopolis-brown-01",
+    "product": "heliopolis"
+   },
+   "typography": {
+    "file": "banner-typography",
+    "photo": "model-ahlan-black-01",
+    "product": "ahlan"
+   },
+   "mix": {
+    "file": "banner-mix",
+    "photo": "model-monsters-brown-01",
+    "product": "monsters"
+   },
+   "vintage": {
+    "file": "banner-vintage",
+    "photo": "model-shotonfilm-brown-01",
+    "product": "shotonfilm"
+   }
+  }
+ }
+}

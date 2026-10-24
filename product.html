@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>رؤية · VISION</title>
+<meta name="description" content="هودي رؤية · VISION — قطن ميلتون 100% مطبوع DTF. ٤ ألوان، مقاسات M إلى 2XL.">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/main.css">
+<script>try{if(localStorage.getItem("vision.lang")==='"en"'){document.documentElement.lang="en";document.documentElement.dir="ltr";}}catch(e){}</script>
+</head>
+<body data-page="product">
+<div id="site-header"></div>
+
+<main id="main" class="page pdp-page">
+  <div class="wrap"><nav class="crumbs" aria-label="Breadcrumb" id="crumbs"></nav></div>
+  <section class="wrap pdp" id="pdp" aria-live="polite"></section>
+  <section class="related" aria-labelledby="relTitle">
+    <div class="wrap">
+      <header class="sec-head"><div><p class="eyebrow lat">SAME COLLECTION</p><h2 class="h2" id="relTitle" data-i18n="pdp.related"></h2></div></header>
+      <div class="grid cards" id="relGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div class="buy-bar" id="buyBar">
+  <div class="bb-info"><b id="bbName"></b><span class="num" id="bbPrice"></span></div>
+  <button type="button" class="btn btn-light" id="bbAdd" data-i18n="pdp.add"></button>
+</div>
+
+<dialog class="lightbox" id="lightbox" aria-label="Zoom">
+  <button type="button" class="icon-btn lb-close" id="lbClose" data-i18n-attr="aria-label:a11y.close"><svg class="lu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  <div class="lb-stage" id="lbStage"><img id="lbImg" alt="" draggable="false"></div>
+</dialog>
+
+<div id="site-footer"></div>
+<script src="js/i18n.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/product.js" defer></script>
+</body>
+</html>

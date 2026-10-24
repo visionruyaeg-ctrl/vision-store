@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vision Admin — Placement</title>
+<style>
+  :root { --bg: #0B0B0B; --card: #161617; --line: rgba(242, 241, 236, .14); --fg: #F2F1EC; --muted: rgba(242, 241, 236, .65); --gold: #D0AD73; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Segoe UI", Tahoma, sans-serif; }
+  header { padding: 24px 20px 8px; max-width: 1200px; margin: auto; }
+  h1 { margin: 0 0 6px; font-size: 1.5rem; } p { color: var(--muted); margin: 0 0 8px; }
+  main { max-width: 1200px; margin: auto; padding: 12px 20px 60px; display: grid; gap: 14px; }
+  .row { display: grid; grid-template-columns: 84px 84px 1fr 220px; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); padding: 10px; border-radius: 6px; }
+  .row img { width: 84px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 4px; background: #111; }
+  .row b { font-size: 1rem; } .row small { display: block; color: var(--muted); }
+  .auto { font-size: .82rem; color: var(--muted); }
+  .auto em { color: var(--gold); font-style: normal; }
+  select, button { font: inherit; min-height: 40px; border-radius: 4px; border: 1px solid var(--line); background: #0F0F10; color: var(--fg); padding: 0 10px; width: 100%; }
+  button { margin-top: 6px; background: var(--fg); color: #0B0B0B; font-weight: 700; cursor: pointer; }
+  button[disabled] { opacity: .5; cursor: wait; }
+  .st { font-size: .8rem; color: var(--muted); margin-top: 4px; min-height: 1.2em; }
+  .spec { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 12px 16px; font-size: .85rem; color: var(--muted); }
+  @media (max-width: 760px) { .row { grid-template-columns: 70px 70px 1fr; } .row .ctl { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>لوحة التحكم — مكان الطباعة (وش / ضهر)</h1>
+  <p>الموقع بيحدد تلقائيًا: الكلام واللوجوهات العريضة على الصدر، والرسومات الطويلة على الضهر. لو عايز تغيّر، اختار من القايمة واضغط «حفظ وإعادة بناء» — الصور هتتعمل من جديد في حوالي 30 ثانية.</p>
+  <p>تشتغل بس على جهازك وأنت فاتح <b dir="ltr">tools\admin.cmd</b>. مش جزء من الموقع المنشور.</p>
+  <div class="spec" id="spec"></div>
+</header>
+<main id="list">جاري التحميل…</main>
+<script>
+(async () => {
+  const $ = s => document.querySelector(s);
+  const data = await (await fetch("data/products.json?" + Date.now())).json();
+  const rep = await (await fetch("/work/build-report.json?" + Date.now())).json();
+  let ov = {}; try { const r = await fetch("/work/placement-overrides.json?" + Date.now()); if (r.ok) ov = await r.json(); } catch {}
+  const pa = data.printAreas;
+  $("#spec").innerHTML = `<b>مساحات الطباعة</b> — الصدر: ${pa.front.cm.width}×${pa.front.cm.height} سم، ملف ${pa.front.file.w}×${pa.front.file.h} px · الضهر: ${pa.back.cm.width}×${pa.back.cm.height} سم (أقصى إنتاج ${pa.back.cm.productionMax})، ملف ${pa.back.file.w}×${pa.back.file.h} px · 300 DPI · ملفات الطباعة في <span dir="ltr">E:\\claude code\\print-files\\&lt;id&gt;</span>`;
+  const label = { "both-files": "ملفين: الصدر + الضهر", front: "صدر بس", back: "ضهر + لوجو رؤية على الصدر", both: "نفس التصميم على الاتنين" };
+  $("#list").innerHTML = rep.map(r => { const p = data.products.find(x => x.id === r.id); if (!p) return "";
+    const c = r.best, single = (r.classified || []).length === 1;
+    return `<div class="row" data-id="${r.id}">
+      <img src="assets/products/${r.id}/${c}-back-480.webp?${Date.now()}" alt="">
+      <img src="assets/products/${r.id}/${c}-front-480.webp?${Date.now()}" alt="">
+      <div><b>${p.name.ar}</b> <small dir="ltr">${r.id} · ${p.status}</small>
+        <div class="auto">التلقائي: <em>${label[r.placementAuto] || r.placementAuto}</em><br>${(r.classified || []).map(x => `<span dir="ltr">${x}</span>`).join("<br>")}</div></div>
+      <div class="ctl">${single ? `<select>
+          <option value="">تلقائي (${label[r.placementAuto] || r.placementAuto})</option>
+          <option value="front"${ov[r.id] === "front" ? " selected" : ""}>Front — صدر بس</option>
+          <option value="back"${ov[r.id] === "back" ? " selected" : ""}>Back — ضهر</option>
+          <option value="both"${ov[r.id] === "both" ? " selected" : ""}>Both — الاتنين</option></select>
+        <button type="button">حفظ وإعادة بناء</button>` : `<small>التصميم له ملفين (صدر + ضهر) — مكانهم ثابت.</small>`}
+        <div class="st"></div></div></div>`; }).join("");
+
+  const enc = async (src, dst, widths, q) => { const img = new Image(); img.src = src; await img.decode();
+    for (const w of widths) { const h = Math.round(img.naturalHeight * w / img.naturalWidth); const c = document.createElement("canvas"); c.width = w; c.height = h; const x = c.getContext("2d"); x.imageSmoothingQuality = "high"; x.drawImage(img, 0, 0, w, h);
+      const b = await new Promise(r => c.toBlob(r, "image/webp", q)); await fetch(`/__save/${dst.replace("{w}", w)}`, { method: "PUT", body: b }); } };
+  $("#list").addEventListener("click", async e => {
+    const btn = e.target.closest("button"); if (!btn) return; const row = btn.closest(".row"), id = row.dataset.id, st = row.querySelector(".st");
+    const v = row.querySelector("select").value; if (v) ov[id] = v; else delete ov[id];
+    btn.disabled = true; st.textContent = "بيحفظ…";
+    await fetch("/__save/work/placement-overrides.json", { method: "PUT", body: JSON.stringify(ov, null, 2) });
+    st.textContent = "بيعيد بناء الصور…"; const out = await (await fetch(`/__rebuild/${id}`, { method: "POST" })).text();
+    const r = (await (await fetch("/work/build-report.json?" + Date.now())).json()).find(x => x.id === id);
+    st.textContent = "بيجهّز صور الموقع…";
+    for (const c of r.colors) for (const side of ["front", "back"]) await enc(`/work/masters/${id}-${c}-${side}.jpg?${Date.now()}`, `assets/products/${id}/${c}-${side}-{w}.webp`, [480, 800, 1200], 0.86);
+    if (r.hasBackPrint) await enc(`/work/masters/${id}-detail.jpg?${Date.now()}`, `assets/products/${id}/detail-{w}.webp`, [600, 1200], 0.88);
+    row.querySelectorAll("img").forEach(i => i.src = i.src.replace(/\?.*$/, "") + "?" + Date.now());
+    st.textContent = "اتحفظ ✓ (" + (out.match(/placement=\S+/) || [""])[0] + ")"; btn.disabled = false;
+  });
+})();
+</script>
+</body>
+</html>

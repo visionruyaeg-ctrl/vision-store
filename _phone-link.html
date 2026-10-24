@@ -1,0 +1,12 @@
+<title>Vision Website</title>
+<style>
+  :root { color-scheme: dark; --bg: #0B0B0B; --fg: #F2F1EC; --gold: #D0AD73; }
+  html, body { background: var(--bg); color: var(--fg); }
+  .go { min-height: 80vh; display: grid; place-items: center; text-align: center; font: 16px/1.6 system-ui, sans-serif; padding-inline: 16px; }
+  .go a { color: var(--gold); }
+</style>
+<div class="go"><p>رؤية · VISION — <a href="home.html" id="go">افتح الموقع / Open the site</a></p></div>
+<script>
+  // the site's own links point to index.html (this page); forward to the real home page, keeping #section
+  location.replace("home.html" + (location.hash || ""));
+</script>

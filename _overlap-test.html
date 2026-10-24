@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Overlap test (dev only)</title>
+<body style="background:#fff;font:14px monospace">
+<pre id="out">running…</pre>
+<script>
+/* Dev-only: loads each page in an iframe at each width + language and reports
+   text boxes that overlap other text, horizontal overflow, broken images and JS errors. */
+const pages = (new URLSearchParams(location.search).get("p") || "index.html,shop.html,shop.html?c=vintage,shop.html?c=mix,shop.html?c=anime,shop.html?c=movies,product.html?id=bust,product.html?id=bttf").split(",");
+const widths = [360, 390, 768, 1024, 1440, 1920];
+const out = document.getElementById("out"); const log = [];
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+async function check(url, w, lang) {
+  const f = document.createElement("iframe"); f.style.cssText = `width:${w}px;height:900px;border:0;position:absolute;left:-9999px`;
+  document.body.appendChild(f);
+  f.contentWindow.localStorage.setItem("vision.lang", JSON.stringify(lang));
+  f.contentWindow.sessionStorage.setItem("vision.loaded", "1");
+  const errs = [];
+  f.src = url; await new Promise(r => f.onload = r);
+  f.contentWindow.addEventListener("error", e => errs.push(e.message));
+  const d = f.contentDocument, win = f.contentWindow;
+  await sleep(900);
+  // reveal everything + load every lazy image so the full page is measured
+  d.querySelectorAll(".reveal").forEach(e => e.classList.add("in"));
+  for (let y = 0; y < d.documentElement.scrollHeight; y += 700) { win.scrollTo(0, y); await sleep(60); }
+  win.scrollTo(0, 0); await sleep(700);   // back to the top: the fixed header must not be compared with content scrolled under it
+  const rects = [];
+  const tw = d.createTreeWalker(d.body, NodeFilter.SHOW_TEXT);
+  while (tw.nextNode()) {
+    const n = tw.currentNode; if (!n.textContent.trim()) continue;
+    const el = n.parentElement; if (!el || el.closest("[hidden],.sr-only,script,style,.ticker,.search-results,.drawer,dialog,.toast,.bottom-nav,.buy-bar,.wa-float,.lb-stage,pre,.skip")) continue;
+    const cs = win.getComputedStyle(el); if (cs.visibility === "hidden" || +cs.opacity === 0) continue;
+    const det = el.closest("details"); if (det && !det.open && !el.closest("summary")) continue;   // closed fold: not on screen
+    const r = d.createRange(); r.selectNodeContents(n);
+    // text scrolled out of a clipping strip (e.g. the lookbook rail) is not on screen: skip it
+    const clip = el.closest(".rail, .g-track"); const cr = clip && clip.getBoundingClientRect();
+    for (const b of r.getClientRects()) if (b.width > 1 && b.height > 1 && (!cr || (b.right > cr.left + 1 && b.left < cr.right - 1))) rects.push({ b, el, t: n.textContent.trim().slice(0, 24) });
+  }
+  const bad = [];
+  for (let i = 0; i < rects.length; i++) for (let j = i + 1; j < rects.length; j++) {
+    const a = rects[i], c = rects[j]; if (a.el === c.el) continue;
+    if (a.el.contains(c.el) || c.el.contains(a.el)) { /* nested inline – still check */ }
+    const ox = Math.min(a.b.right, c.b.right) - Math.max(a.b.left, c.b.left), oy = Math.min(a.b.bottom, c.b.bottom) - Math.max(a.b.top, c.b.top);
+    if (ox > 2 && oy > 3) bad.push(`"${a.t}" × "${c.t}"`);
+  }
+  const overflow = d.documentElement.scrollWidth > w + 1 ? `H-SCROLL ${d.documentElement.scrollWidth}` : "";
+  const broken = [...d.images].filter(i => i.complete && i.naturalWidth === 0 && i.getAttribute("src")).map(i => i.currentSrc || i.src);
+  f.remove();
+  return { bad: [...new Set(bad)].slice(0, 6), overflow, broken, errs };
+}
+(async () => {
+  for (const p of pages) for (const lang of ["ar", "en"]) for (const w of widths) {
+    const r = await check(p, w, lang);
+    const ok = !r.bad.length && !r.overflow && !r.broken.length && !r.errs.length;
+    log.push(`${ok ? "OK  " : "FAIL"} ${p} ${lang} ${w}` + (ok ? "" : ` ${r.overflow} ${r.bad.join(" | ")} ${r.broken.length ? "BROKEN " + r.broken.join(", ") : ""} ${r.errs.join(";")}`));
+    out.textContent = log.join("\n");
+  }
+  log.push("DONE"); out.textContent = log.join("\n"); window.__done = true;
+})();
+</script>

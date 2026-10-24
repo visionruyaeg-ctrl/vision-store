@@ -1,0 +1,6 @@
+﻿<!doctype html><meta charset="utf-8"><title>phone frame (dev only)</title>
+<style>html,body{margin:0;background:#fff}iframe{display:block;width:390px;border:0}</style>
+<iframe id="f"></iframe>
+<script>/* dev only: renders a page at a real 390px phone width for screenshots. ?p=page&h=height */
+const q = new URLSearchParams(location.search), f = document.getElementById("f");
+f.style.height = (q.get("h") || 3000) + "px"; f.src = decodeURIComponent(q.get("p") || "index.html");</script>
