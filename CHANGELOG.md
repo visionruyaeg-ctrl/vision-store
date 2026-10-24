@@ -4,6 +4,13 @@ Every change to the site is logged here: date, what changed, which files, and wh
 
 ---
 
+## 2026-10-24 — Netlify publishes only the public site
+- New `netlify.toml`: at deploy time Netlify copies an allow-list into `dist/` (index.html, shop.html, product.html, css, js, data, assets) and publishes only that folder. Everything internal stays in the repository and on the computer but is not on the website: all `_` files/folders (_admin, _uiux-audit, _overlap-test, _phone-frame, _phone-link, _previews, _screens-2026-10-24, _preview-new-look.jpg), serve.ps1, CHANGELOG.md, netlify.toml, .gitignore. Extra lock: `/_*`, `/serve.ps1`, `/CHANGELOG.md` answer 404.
+- The admin page (placement editor that saves through the local tools server) is therefore not public at all.
+- `dist/` added to `.gitignore`. Checked locally with the same command (Git Bash): 3,160 files published, 0 internal files, every referenced path matches its file name exactly (Linux is case-sensitive).
+
+---
+
 ## 2026-10-24 — the site is on GitHub
 - Private repository https://github.com/visionruyaeg-ctrl/vision-store, branch `main` (first commit `06ffa18`, 3,180 files, ~206 MB).
 - Installed Git 2.55 and GitHub CLI 2.103 (winget, owner's request); the owner signed in with `gh auth login` in the browser (account visionruyaeg-ctrl). Commits use the account's private noreply e-mail.

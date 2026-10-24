@@ -1,0 +1,26 @@
+# Netlify publishes ONLY the public site, copied into dist/ at deploy time (an allow-list):
+# the three pages + css + js + data + assets. Internal files stay in the repository and on the computer
+# but are never on the website: everything starting with _ (admin, tests, previews, screenshots, phone-link pages),
+# serve.ps1, CHANGELOG.md, netlify.toml, .gitignore.
+[build]
+  publish = "dist"
+  command = "rm -rf dist && mkdir dist && cp -r index.html shop.html product.html css js data assets dist/ && find dist -name '_*' -prune -exec rm -rf {} +"
+
+# second lock: even if an internal file ever ends up in dist/, its address answers "not found"
+[[redirects]]
+  from = "/_*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/serve.ps1"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/CHANGELOG.md"
+  to = "/404.html"
+  status = 404
+  force = true
