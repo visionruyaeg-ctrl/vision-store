@@ -4,6 +4,13 @@ Every change to the site is logged here: date, what changed, which files, and wh
 
 ---
 
+## 2026-10-24 — the site is on GitHub
+- Private repository https://github.com/visionruyaeg-ctrl/vision-store, branch `main` (first commit `06ffa18`, 3,180 files, ~206 MB).
+- Installed Git 2.55 and GitHub CLI 2.103 (winget, owner's request); the owner signed in with `gh auth login` in the browser (account visionruyaeg-ctrl). Commits use the account's private noreply e-mail.
+- `.gitignore`: `.env`, `.env.*`, `*.pem`, `*.key`, `node_modules/`, system files. Checked before upload: no passwords, API keys or tokens in the code.
+
+---
+
 ## 2026-10-24 — phone link updated to v6 (owner: "قلل الصور واظبط الموقع زي الأول لحد ما انقله")
 - The link (https://claude.ai/artifact/E3Dt6Ee2zpyXoARoebMSGj) holds at most 511 files, so it gets a lighter copy: all 121 designs with their 3 strongest colours, 800 px WebP only, no print close-ups, model photos at 600 px, banners at 960 px. 435 files (was 314); the 221 old files were removed. The full site keeps all 5 colours and every size.
 - New `tools/stage_phone.py` (replaces `stage-phone.ps1`) builds `E:\claude code\phone-build`; old build kept in the backup (`phone-build-v3.3`).
